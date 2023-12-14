@@ -36,7 +36,7 @@ pnpm dev:vite
 
 > [!IMPORTANT]
 > Please notice that the above shows a standard application error rendered by the default Remix error boundary, showing that there in an application error but the Remix application is indeed running.
-> This works thanks to this import: `import { renderToReadableStream } from "react-dom/server.browser";` if you try to remove the `.browser` suffix, the whole application as a whole won't run anymore and you'll just get the following error
+> This works thanks to this import: `import { renderToReadableStream } from "react-dom/server.browser";` in the `app/entry.server.tsx` file. If you try to remove the `.browser` suffix, the whole application as a whole won't run anymore and you'll just get the following error
 > ![bad error](./bad-error.png)
 >
 > PS: this could probably be fixed by: https://github.com/facebook/react/issues/26906
