@@ -1,19 +1,19 @@
 # Remix Demo of using a Cloudflare KV (with Vite)
 
 Start by installing the dependencies:
-```
+```sh
 pnpm i
 ```
 
 ## Old Remix Flow
 
 To run the application locally using the old remix dev mode:
-```
+```sh
 pnpm dev:old
 ```
 
 To deploy the application:
-```
+```sh
 # build the application
 pnpm build 
 # and deploy it
@@ -26,7 +26,7 @@ pnpm run deploy
 ## Vite Flow
 
 To run the application locally using the vite run:
-```
+```sh
 pnpm dev:vite
 ```
 
@@ -42,7 +42,7 @@ pnpm dev:vite
 > PS: this could probably be fixed by: https://github.com/facebook/react/issues/26906
 
 To preview the application locally (not using Vite):
-```
+```sh
 # build the application
 pnpm build
 # and preview it
@@ -50,10 +50,9 @@ pnpm run pages:preview
 ```
 
 To deploy the application:
-```
+```sh
 # build the application
 pnpm build 
 # and deploy it
 pnpm run deploy
 ```
-
